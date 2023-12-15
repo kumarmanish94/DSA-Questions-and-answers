@@ -1,0 +1,16 @@
+(1) linear search algorithm and progrom in c
+------------------------------
+step(1) Begin
+step(2) set[5]<- {10,20,30,40,50}
+step(3) set i<-0
+step(4) input seaching item
+step(5) Repeat step 6 and 7 while i<5
+step(6) if a[i]= item then
+        print item found and loccation=i and exit
+step(7) i<- i+1
+step(8) if i>=5 then
+         print item not found
+step(9) end
+
+(2) linear search program in c.
+-------------------------------------
