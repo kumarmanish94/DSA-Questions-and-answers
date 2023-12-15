@@ -12,5 +12,25 @@ step(8) if i>=5 then
          print item not found
 step(9) end
 
-(2) linear search program in c.
+(2) linear search program in c without taking input from an user.
 -------------------------------------
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a[5]={10,20,30,40,50}, i=0,item;
+printf("input searching item...");
+scanf("%d",&item);
+while(i<5)
+{
+if(a[i]==item)
+{
+printf("item found location=%d",i);
+break;
+}
+i++;
+}
+if(i>=5)
+printf("item not found");
+getch();
+}
